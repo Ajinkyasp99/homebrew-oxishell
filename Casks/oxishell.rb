@@ -1,7 +1,7 @@
 # Homebrew cask template: installs the released Oxishell.app into /Applications
 # (the formula only builds the command-line binaries, which macOS does not list
-# as an app). The release workflow fills in 0.3.1, 08fbd769931e472b4efe34587784f751d46c6bd5fd812b9f1e1516db8c86630c and
-# 0b03236e6918175e99b76949ba650a723dde28e26a2e876cfef0a6106559d356 and pushes the result to the tap repository
+# as an app). The release workflow fills in 0.4.0, f7be60ef76cd3df4cc96b9454480c9d7ecaf4dc0b76a9397f02e32cb9fafc57a and
+# c33593379ff93357e3e9a641cb14cd1986822559978e4a716820ed3296da581a and pushes the result to the tap repository
 # (Ajinkyasp99/homebrew-oxishell, as Casks/oxishell.rb).
 # Install: brew install Ajinkyasp99/oxishell/oxishell   (or with --cask)
 # There is deliberately no formula named oxishell in the tap (the CLI-only one
@@ -9,9 +9,9 @@
 cask "oxishell" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.3.1"
-  sha256 arm:   "08fbd769931e472b4efe34587784f751d46c6bd5fd812b9f1e1516db8c86630c",
-         intel: "0b03236e6918175e99b76949ba650a723dde28e26a2e876cfef0a6106559d356"
+  version "0.4.0"
+  sha256 arm:   "f7be60ef76cd3df4cc96b9454480c9d7ecaf4dc0b76a9397f02e32cb9fafc57a",
+         intel: "c33593379ff93357e3e9a641cb14cd1986822559978e4a716820ed3296da581a"
 
   url "https://github.com/Ajinkyasp99/oxishell/releases/download/v#{version}/oxishell_#{version}_macos_#{arch}.dmg"
   name "Oxishell"
