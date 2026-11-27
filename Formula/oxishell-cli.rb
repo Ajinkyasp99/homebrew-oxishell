@@ -1,5 +1,5 @@
 # Homebrew formula template for the command-line build. The release workflow
-# fills in 0.5.0 and d7ae54f33f7e506b5b4e6237b9e25848e2dfe8ec1af920c8a22cc942b4e422c7 and pushes the result to the tap repository
+# fills in 0.7.0 and 9a04258ee6b5595677b569501cde1a6f49ce113e8deaa9585a5eefefbc7fcd75 and pushes the result to the tap repository
 # (Ajinkyasp99/homebrew-oxishell, as Formula/oxishell-cli.rb).
 #
 # It is named oxishell-cli, not oxishell, on purpose: with a formula and a cask
@@ -11,8 +11,8 @@
 class OxishellCli < Formula
   desc "Terminal workspace manager for AI coding agents (command-line build)"
   homepage "https://github.com/Ajinkyasp99/oxishell"
-  url "https://github.com/Ajinkyasp99/oxishell/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "d7ae54f33f7e506b5b4e6237b9e25848e2dfe8ec1af920c8a22cc942b4e422c7"
+  url "https://github.com/Ajinkyasp99/oxishell/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "9a04258ee6b5595677b569501cde1a6f49ce113e8deaa9585a5eefefbc7fcd75"
   license "GPL-3.0-or-later"
   head "https://github.com/Ajinkyasp99/oxishell.git", branch: "main"
 
